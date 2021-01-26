@@ -17,7 +17,7 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-produce =
+matrix =
 
   CONVENTIONAL_PRODUCE,
   ORGANIC_PRODUCE
@@ -29,7 +29,7 @@ produce =
 end
 
 def sorted_matrix
-  produce =
+  matrix =
 
     CONVENTIONAL_PRODUCE.sort,
     ORGANIC_PRODUCE.sort
@@ -39,10 +39,10 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  produce =
+  matrix =
 
-    CONVENTIONAL_PRODUCE(row,column),
-    ORGANIC_PRODUCE(row,column)
+    CONVENTIONAL_PRODUCE
+    ORGANIC_PRODUCE
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
 end
