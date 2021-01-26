@@ -41,8 +41,8 @@ end
 def matrix_lookup(matrix, row, column)
   produce =
 
-    CONVENTIONAL_PRODUCE.lookups,
-    ORGANIC_PRODUCE.lookups
+    CONVENTIONAL_PRODUCE[][],
+    ORGANIC_PRODUCE[][]
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
 end
