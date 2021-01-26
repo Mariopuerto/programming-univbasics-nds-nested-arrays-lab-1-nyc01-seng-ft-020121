@@ -44,6 +44,7 @@ end
 def matrix_update(matrix, row, column, new_value)
 matrix[row][column][new_value]
 
+new_value
 
 
   # Given any matrix (array of arrays), a row index and a column index,
