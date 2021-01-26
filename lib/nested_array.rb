@@ -16,7 +16,7 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-def assembled_matrix(ORGANIC_PRODUCE,CONVENTIONAL_PRODUCE)
+def assembled_matrix
 puts["Strawberries",  "Potatoes",  "Grapes", "Avocadoes",  "Asparagus"]
 puts["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
   # Build an array that contains both of the above arrays
